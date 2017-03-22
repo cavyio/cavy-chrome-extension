@@ -28,7 +28,7 @@ window.addEventListener('message', function (event) {
         
     // if browser is asking whether extension is available
     if(event.data == 'are-you-there') {
-        window.postMessage('rtcmulticonnection-extension-loaded', '*');
+        window.postMessage('cavy-screenshot-extension-loaded', '*');
     }
 
     // if it is something that need to be shared with background script
@@ -39,4 +39,4 @@ window.addEventListener('message', function (event) {
 });
 
 // inform browser that you're available!
-window.postMessage('rtcmulticonnection-extension-loaded', '*');
+window.postMessage('cavy-screenshot-extension-loaded', '*');
