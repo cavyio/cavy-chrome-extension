@@ -1,10 +1,10 @@
 {
-    "name" : "Cavy Desktop Screenshot Support",
+    "name" : "Cavy Screenshot Support",
     "author": "Cavy",
     "version" : "1.0",
     "manifest_version" : 2,
     "minimum_chrome_version": "34",
-    "description" : "This extension allows you to capture desktop screenshots for Cavy.",
+    "description" : "This extension allows you to capture screenshots in Cavy.",
     "homepage_url": "https://cavy.io/",
     "background": {
         "scripts": ["background-script.js"],
@@ -14,7 +14,7 @@
        "js": [ "content-script.js" ],
        "all_frames": true,
        "run_at": "document_end",
-       "matches": ["https://support.cavy.io/*"]
+       "matches": ["https://cavy.io/*"]
     }],
     "icons" : {
         "48" : "icon.png"
